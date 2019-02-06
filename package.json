@@ -29,6 +29,10 @@
     "prettier-changefiles": "pretty-quick --staged",
     "precommit": "yarn run prettier-changefiles"
   },
+  "engines": {
+    "node": "8.11.x"
+  },
+
   "eslintConfig": {
     "extends": "react-app"
   },
